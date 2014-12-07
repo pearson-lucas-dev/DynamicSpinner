@@ -1,0 +1,24 @@
+<LinearLayout 
+    android:layout_height="fill_parent" 
+    android:layout_width="fill_parent" 
+    android:orientation="vertical" 
+    xmlns:android="http://schemas.android.com/apk/res/android">
+  
+    <TextView 
+        android:layout_height="wrap_content" 
+        android:layout_width="fill_parent" 
+        android:text="@string/hello_world"/>
+    
+    <Spinner 
+        android:id="@+id/myspinner1" 
+        android:layout_height="wrap_content" 
+        android:layout_width="fill_parent"/>
+    
+ 
+    <Button 
+        android:id="@+id/move" 
+        android:layout_height="wrap_content" 
+        android:layout_width="fill_parent" 
+        android:text="Add current Date/Time to Spinner" />
+        
+    </LinearLayout>
